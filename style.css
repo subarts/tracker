@@ -1,0 +1,65 @@
+*{
+box-sizing: border-box;
+}
+body {
+
+background: color #f3f6fd;;;
+}
+.app{
+display: flex;
+}
+.panel{
+background: white;
+min-height: 100vh;
+padding: 30px;
+}
+.logo{
+margin-bottom: 50px;
+}
+.menuList{
+display: flex;
+flex-direction: column;
+gap: 25px;
+align-items: center;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+.menuItem{
+    background: #FFFFFF;
+    box-shadow: 0px 8px 14px rgba(62, 107, 224, 0.12);
+    border-radius: 14px;
+    border: none;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+.menuItem:hover{
+    background: #6A6AFB;
+}
+.menuActive{
+    background: #5051F9;
+
+}
+.menuActive img{
+   filter: brightness(0) invert(1);
+
+}
+.menuItem:hover img{
+    filter: brightness(0) invert(1);
+}
+.menuAdd{
+    border: 1px solid #CAD5FF;
+    border-radius: 14px;
+    cursor: pointer;
+    background: none;
+    width: 45px;
+    height: 45px;
+}
+.menuAdd:hover{
+background: black;
+
+}
